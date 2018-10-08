@@ -51,20 +51,16 @@ int main (){
 		}
     }
     str[256] = size;
-    printf ("%d", str[256]);
 	i = 0;
-    printf ("%c", hash[i]);
     
     while(i < largo){
 
     	if(hash[i] == 'M'){
-    		printf("aqui");
     		void *handle1;
 			handle1 = dlopen ("./sym/libpermutar.so", RTLD_LAZY);
 			permuta = dlsym(handle1, "permuta");
 			(*permuta)(str);
 			dlclose(handle1);
-			printf("pasa");
 		}
 
     	else if(hash[i] == 'O'){
@@ -73,7 +69,6 @@ int main (){
 			rot13 = dlsym(handle2, "rot13");
 			(*rot13)(str);
 			dlclose(handle2);
-			printf("de");
 		}
 
     	else if(hash[i] == 'V'){
