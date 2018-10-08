@@ -1,0 +1,11 @@
+Use un arreglo de 257 caracteres para ingresar el primer string, donde los primeros 256 son dedicados a este y en el 257 se guarda el largo de este. La cadena hash tiene largo dinamico.
+
+Las funciones implementadas fueron:
+Permutar: Lee el string y si la iteracion es par realiza el cambio.
+Rot13: Lee el string caracter por caracter aplicando una rotacion de 13 en el abecedario. www.rot13.com
+Pascal: Lee el string, lo separa en 2 arreglos, izq y der. Ordena los caracteres, invierte el arreglo izq y junta izq, der y el caracter central en caso de haber uno.
+Backward: Lee el string y mueve los caracteres en casillas pares al principio del string.
+Reverse: Invierte el string.
+
+Tuve problemas el dia sabado para programar la funcion pascal, perdi medio dia por culpa de los ejemplos mal formulados. Espero se tome en cuenta a la hora de revisar ya que es el culpable de no tener a tiempo la tarea.
+El codigo del domingo daba seg fault por no haber puesto ../ como sufijo de las direcciones de bibliotecas dinamicas en el main.
