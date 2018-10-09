@@ -1,4 +1,5 @@
 Use un arreglo de 257 caracteres para ingresar el primer string, donde los primeros 256 son dedicados a este y en el 257 se guarda el largo de este. La cadena hash tiene largo dinamico.
+Make se debe hacer desde la carpeta misma del repositorio, mas requiere que antes se creen de forma manual las carpetas bin y sym.
 
 Las funciones implementadas fueron:
 Permutar: Lee el string y si la iteracion es par realiza el cambio.
